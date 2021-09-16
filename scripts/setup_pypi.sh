@@ -1,0 +1,1 @@
+cp -rf ./decrypted/.pypirc ~/.pypirc

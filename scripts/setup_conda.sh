@@ -1,3 +1,4 @@
+cd ~
 wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod 777 Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh -b -f
@@ -19,3 +20,5 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/f
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 cd ../../
 rm -f Miniconda3-latest-Linux-x86_64.sh
+
+pip install pyheaven --force-reinstall
